@@ -1,10 +1,10 @@
 <template>
   <div class="sparrow">
     <div class="sparrow-content" v-show="showEdit">
-      <iframe class="sparrow-iframe" src="http://127.0.0.1:8000/" />
+      <iframe class="sparrow-iframe" src="http://localhost:8000/" />
     </div>
     <div class="sparrow-button" @click="toggleEdit">
-      sparrow
+      <img class="sparrow-button-icon" src="https://imgkr.cn-bj.ufileos.com/f30db406-ae7e-40f2-b6e4-dd840b124c20.png" />
     </div>
   </div>
 </template>
@@ -35,8 +35,9 @@ export default {
 }
 .sparrow-button{
   background: #304156;
-  width: 78px;
-  height: 78px;
+  width: 56px;
+  height: 56px;
+  padding: 15px;
   border-radius: 68px;
   color: #fff;
   display: flex;
@@ -54,5 +55,9 @@ export default {
   border: 0;
   width: 1200px;
   height: 600px;
+}
+.sparrow-button-icon{
+  width: 100%;
+  height: 100%;
 }
 </style>
