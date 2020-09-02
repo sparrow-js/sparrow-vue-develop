@@ -4,7 +4,7 @@
       <iframe class="sparrow-iframe" src="http://localhost:8000/" />
     </div>
     <div class="sparrow-button" @click="toggleEdit">
-      <img class="sparrow-button-icon" src="https://imgkr.cn-bj.ufileos.com/f30db406-ae7e-40f2-b6e4-dd840b124c20.png" />
+      <img class="sparrow-button-icon" src="https://unpkg.com/@sparrow-vue/images@1.0.5/assets/sparrow.png" />
     </div>
   </div>
 </template>
